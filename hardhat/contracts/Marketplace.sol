@@ -12,7 +12,7 @@ contract Marketplace {
     Counters.Counter private _itemIds; // keep track of each nft item created
     Counters.Counter private _itemsSold;  // keep track of items sold in marketplace
     address payable owner; // owner of marketplace contract
-    uint256 royalty = 0.050 ether; // marketplace owner earn some royalty on each item sold
+    uint256 royalty = 0.050 ether; // marketplace contract earn some royalty on each item sold
 
     constructor() {
         owner = payable(msg.sender);
