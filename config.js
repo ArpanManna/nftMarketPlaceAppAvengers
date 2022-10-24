@@ -1,3 +1,11 @@
+// this file contains the deployed contract addresses and ABI
+// Marketplace contract and NftToken contract deployed on Goerli testnet using Alchemy
+// Artifacts will be found at this path
+// hardhat/artifacts/contracts/Marketplace.sol/Marketplace.json
+// hardhat/artifacts/contracts/NftToken.sol/NftToken.json
+
+
+
 export const nftMarketplaceAddress = "0xC21e6A7121383B0E1f656da664546cc37d26994e"
 export const nftTokenAddress = "0x05b4A6DCd89a3A7b1398DC0B493ed73E242E38eB"
 export const nftTokenABI = [

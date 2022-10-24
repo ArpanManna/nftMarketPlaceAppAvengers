@@ -3,7 +3,6 @@ import { ethers } from 'ethers';
 import { create } from 'ipfs-http-client';
 import { useRouter } from 'next/router';
 import Web3Modal from 'web3modal';
-import ipfsClient from 'ipfs-http-client'
 import { Contract, providers, utils } from "ethers";
 import { nftMarketplaceAddress, nftTokenAddress, nftTokenABI, nftMarketplaceABI } from '../../config';
 

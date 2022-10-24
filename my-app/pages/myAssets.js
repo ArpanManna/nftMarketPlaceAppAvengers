@@ -1,5 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { useState, useEffect, useRef } from 'react';
 import Web3Modal from 'web3modal';
@@ -7,7 +5,7 @@ import { Contract, providers, utils } from "ethers";
 import { nftMarketplaceAddress, nftTokenAddress, nftTokenABI, nftMarketplaceABI } from '../../config';
 import axios from "axios";
 import { ethers } from 'ethers';
-import Marketplace from './_app';
+
 
 export default function myAssets() {
 
