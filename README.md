@@ -9,25 +9,20 @@ When **buying** an NFT, the price will be transferred to the seller and the roya
 The contract is deployed to the **Goerli Testnet** using [Alchemy](https://www.alchemy.com/) as a node provider and all transaction happen through Metamask. 
 
 # Environment Steup 
-'''
-create directory named hardhat 
-mkdir hardhat
-cd hardhat
-npm init --yes
-npm install --save-dev hardhat
-npx hardhat
-npm install @openzeppelin/contracts
-'''
-
-## npx create-next-app@latest
-## cd my-app
-## npm run dev
-## npm install web3modal
-## npm install ethers
-## npm install tailwindcss@latest postcss@latest autoprefixer
-
-## npx tailwindcss init -p
-
-
-## npx hardhat compile
-## npx hardhat run scripts/deploy.js --network goerli
+## Clone the repository
+```sh
+https://github.com/ArpanManna/nftMarketPlaceAppAvengers.git
+```
+## Change directory to hardhat 
+```sh
+npm install
+```
+## Change directory to my-app
+```sh
+npm install
+```
+## To start the development server run 
+```sh
+npm run dev
+```
+NFT marketplace is running on localhost:3000
